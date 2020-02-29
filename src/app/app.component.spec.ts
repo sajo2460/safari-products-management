@@ -19,7 +19,7 @@ describe('AppComponent', () => {
   it(`should have as title 'safari-products-management'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('safari-products-management');
+    expect(app.pageTitle).toEqual('safari-products-management');
   });
 
   it('should render title', () => {
